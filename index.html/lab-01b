@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Lab-01b</title>
+    <style>
+      li {
+        color: blue;
+      }
+    </style>
+  </head>
+  <header>
+         <h1>Class 1 Lab</h1>
+         <nav>
+            <h2>
+               Resource Links
+            </h2>
+            <ul>
+               <li><a href="/">Lunch Menu</a></li>
+               <li><a href="/">Dinner Menu</a></li>
+               <li><a href="/">Deserts</a></li>
+               <li><a href="/">Locations</a></li>
+            </ul>
+         </nav>
+      </header>
+      <main>
+  <body>
+        <p>Thank you for choosing Grandmas Kitchen.  The info you entered was a complimentary meal, bravo you win!</p>
+    <ul>
+      <li style="color: green">
+       Call now to place your to go orders 319-867-5309
+      </li>
+      <li>Questions or custom orders? Call now!</li>
+    </ul>
+    <script>
+      let user = prompt("Welcome, what is your name?");
+      console.log(`The user's name is ${user}.`);
+      let food = prompt("What is your favorite food?");
+      console.log(`Your favorite food is ${food}.`);
+       let pie = prompt("Do you want to add pie, Yes or No?");
+      console.log(`The users pie preference. ${pie}.`);
+       let ordername = prompt("Type your last name for order pick up.");
+      console.log(`Users last name. ${ordername}.`);
+      alert(`What up! , ${user}.  Your ${food} will be ready soon. Pie? ${pie}. The order will be ready for pickup under last name ${ordername}`);
+    </script>
+  </body>
+  </main>
+  <footer>
+  Food </foorter>
+</html>
